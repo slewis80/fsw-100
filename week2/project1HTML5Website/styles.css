@@ -1,0 +1,25 @@
+#main-heading {
+    color: darkgreen;
+}
+
+.headers {
+    font-family: georgia;
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 50%;
+}
+
+.body-text {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

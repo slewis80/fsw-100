@@ -37,21 +37,21 @@ h1 {
 
 .latestBlog {
     max-width: 800px;
-    margin: 25px;
+    margin: 25px auto;
     border: 2px solid brown;
     padding: 10px;
 }
 
 .snowflakeBlog {
     max-width: 800px;
-    margin: 25px;
+    margin: 25px auto;
     border: 2px solid brown;
     padding: 10px;
 }
 
 .puppiesBlog {
     max-width: 800px;
-    margin: 25px;
+    margin: 25px auto;
     border: 2px solid brown;
     padding: 10px;
 }

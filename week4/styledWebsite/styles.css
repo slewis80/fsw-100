@@ -1,0 +1,160 @@
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    text-align: center;
+    width: 90%;
+    border-radius: 50%;
+}
+
+nav li {
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+}
+
+nav li:hover {
+    color: turquoise;
+}
+
+.companyLogo {
+    margin-top: 80px;
+}
+
+.companyLogo img {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    padding-bottom: 15px;
+    border-bottom: 5px dotted brown;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.followLinks {
+    text-align: center;
+}
+
+.fa-facebook {
+    color: #3A7BFF;
+    padding: 5px;
+}
+
+.fa-camera {
+    color: #FF645F;
+    padding: 5px;
+}
+
+.fa-twitter-square {
+    color: #59a2ff;
+    padding: 5px;
+}
+
+.followLinks li {
+    display: inline;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 15px;
+}
+
+.followLinks li:hover {
+    color: red;
+}
+
+.luxeryLevels li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.luxeryLevels i {
+    margin-right: 5px;
+}
+
+.luxeryLevels p {
+    text-align: left;
+    font-weight: bolder;
+}
+
+main div {
+    border-bottom: 5px dotted brown;
+}
+
+main h4 {
+    margin: 10px;
+}
+
+main table {
+    display: block;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    width: 90%;
+    margin: auto auto 30px auto;
+}
+
+th {
+    border: 2px solid black;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.testimonialSection {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.testimonialSection div {
+    width: 30%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid brown;
+    display: inline-block;
+    background: white;
+    overflow: hidden;
+}
+
+.testimonialSection img {
+    float: left;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.testimonialSection p {
+    font-style: italic;
+    font-size: 14px;
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.audio {
+    border: 1px solid black;
+    margin: 15px;
+    text-align: center;
+}
+audio {
+    margin: 20px auto;
+}
+.boxHolder {
+    display: flex;
+    height: 600px;
+    width: 400px;
+    border: 5px dotted black;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1 {
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: background-color 1s, color 1s, border-radius 1s;
+}
+.box1:hover {
+    background-color: black;
+    color: cornsilk;
+    border-radius: 50%;
+}
+.box2 {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: transform 1s, border 1s ease-in;
+}
+.box2:hover {
+    transform: rotate(180deg);
+    border: 3px dashed yellow;
+}
+.box3 {
+    background-color: crimson;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: padding 1s, font-family 2s, color 2s;
+}
+.box3:hover {
+    padding: 25px;
+    font-family: 'Monoton', cursive;
+    color: white;
+}
+.box4 {
+    background-color: darkolivegreen;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: transform 2s, border 1s;
+}
+.box4:hover {
+    transform: skewY(20deg);
+    border: 7px double black;
+}
+.box5 {
+    border: 5px solid darkslategray;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: font-size 1s, text-shadow 1s, padding 1s;
+}
+.box5:hover {
+    text-shadow: 2px 2px 5px red;
+    font-size: 30px;
+    padding: 45px;
+}
+.box6 {
+    background-color: firebrick;
+    text-align: center;
+    font-weight: bold;
+    padding: 70px;
+    transition: box-shadow 1s, border-radius 1s;
+}
+.box6:hover {
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+}

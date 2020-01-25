@@ -34,7 +34,7 @@
 
 /* desktop navigation */
 @media only screen and (min-width: 650px) {
-.navbar {
+    .navbar {
     background-color: white;
     position: fixed;
     top: 0;
@@ -78,7 +78,10 @@ h3 {
     border-bottom: 5px dotted brown;
     margin-bottom: 10px;
 }
-
+.lolText {
+    font-style: italic;
+    color: brown;
+}
 p {
     font-family: 'Dosis', sans-serif;
     text-align: center;
@@ -120,7 +123,29 @@ main {
 main h4 {
     margin: 10px;
 }
-
+form {
+    margin: 20px 50px;
+    padding: 40px;
+    text-align: center;
+}
+input {
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 275px;
+}
+textarea {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+}
+#submitButton {
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
 main table {
     display: block;
     border: 2px solid black;
@@ -160,6 +185,9 @@ td {
     display: inline-block;
     background: white;
     overflow: hidden;
+}
+.testimonialSection div:hover {
+    box-shadow: 2px 2px 5px 5px gray;
 }
 
 .testimonialSection img {

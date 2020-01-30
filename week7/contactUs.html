@@ -9,18 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis|Varela+Round&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0e3ee1e576.js" crossorigin="anonymous"></script>
 </head>
-<body id="contactUs">
-    <nav>
-        <ul class="navbar">
-            <li class="navLink"><a href="./petPurrfectKennels.html" alt="go home">Home</a></li>
-            <li class="navLink"><a href="./dogsCats.html" alt="dogs and cats">Dogs/Cats</a></li>
-            <li class="navLink"><a href="./birds.html" alt="birds">Birds</a></li>
-            <li class="navLink"><a href="./exotics.html" alt="exotics">Exotics</a></li>
-            <li class="navLink activeLink"><a href="./contactUs.html" alt="contact us">Contact Us</a></li>
-        </ul>
+<body>
+    <nav class="navbar">
+        <a class="navLink" href="./petPurrfectKennels.html" alt="go home">Home</a>
+        <a class="navLink" href="./dogsCats.html" alt="dogs and cats">Dogs/Cats</a>
+        <a class="navLink" href="./birds.html" alt="birds">Birds</a>
+        <a class="navLink" href="./exotics.html" alt="exotics">Exotics</a>
+        <a class="navLink" href="./contactUs.html" alt="contact us">Contact Us</a>
     </nav>
     <header>
         <h1>Contact Us</h1>
+        <img src="https://images.unsplash.com/photo-1570083208073-f0c09ea8dcf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="cat on computer photo">
     </header>
     <main>
         <form>
@@ -30,9 +29,26 @@
             <input type="text" name="email"><br>
             Message:<br>
             <textarea name="message"></textarea><br>
-            <input type="checkbox" name="newsletter"> Check here if you want to recieve our newsletter and special discounts via e-mail.<br> 
+            <input id="checkbox" type="checkbox" name="newsletter"> Check here if you want to recieve our newsletter and special discounts via e-mail.<br> 
             <input id="submitButton" type="submit">
         </form>
+        <div class="phoneNumber">
+            <p>
+                Give us a call:
+            </p>
+            <p>
+                1-800-555-9999
+            </p>
+        </div>
+        <div class="address">
+            <p>
+                Visit us:
+            </p>
+            <p>
+                555 Main St.<br>
+                Your Town, YZ 99999
+            </p>
+        </div>
     </main>
 
     <footer>

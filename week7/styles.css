@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-/* mobile navigation */
-.navbar {
-    list-style-type: none;
-}
+/* navigation */
 .navLink {
+    display: block;
     background-color: tan;
+    text-decoration: none;
+    color: black;
     width: auto;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
@@ -16,67 +16,67 @@
     margin: 3px;
     padding: 5px;
 }
-.navLink a {
-    text-decoration: none;
-    color: black;
-}
 .navLink:hover {
     background-color: brown;
-}
-.navLink a:hover {
     color: white;
+    text-shadow: 0px 0px 7px black;
 }
 .companyLogo img {
     height: 200px;
     display: block;
+    border: none;
     margin: auto;
+}
+header img {
+    height: 200px;
+    display: block;
+    width: auto;
+    border: 3px double brown;
+    margin: 20px auto;
 }
 
 /* desktop navigation */
 @media only screen and (min-width: 650px) {
     .navbar {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-}
-.navLink {
-    background-color: white;
-    display: inline-block;
-    border-radius: 10px;  
-    font-size: 20px;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-}
-.activeLink a {
-    background-color: brown;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
-header {
-    margin: 70px auto 40px auto;
-}
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .navLink {
+        background-color: white;
+        display: inline-block;
+        border-radius: 10px;  
+        font-size: 20px;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    header {
+        margin-top: 70px;
+        padding: 70px auto 40px auto;
+    }
 }
 
 /* content */
-
-
 
 h1 {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
 }
-
 h3 {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     font-style: italic;
     padding-bottom: 15px;
     border-bottom: 5px dotted brown;
-    margin-bottom: 10px;
+    margin: 10px;
+}
+h4 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 10px;
 }
 .lolText {
     font-style: italic;
@@ -86,45 +86,45 @@ p {
     font-family: 'Dosis', sans-serif;
     text-align: center;
 }
-
-h4 {
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    margin: auto;
-}
 .luxeryLevels {
     margin: 25px;
 }
-
 .luxeryLevels li {
     list-style-type: none;
     font-weight: bold;
     color: brown;
-    font-size: 20px;
+    font-size: 22px;
     padding: 20px;
 }
-
 .luxeryLevels i {
     margin-right: 5px;
 }
-
 .luxeryLevels p {
     text-align: left;
-    font-weight: bolder;
     margin-left: 10px;
+    font-size: 18px;
 }
-
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    text-align: center;
+}
+td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-style: italic;
+    color: darkolivegreen;
+    margin-bottom: 10px;
+}
 main {
     border-bottom: 5px dotted brown;
     margin-bottom: 10px;
     padding-bottom: 15px;
 }
-
-main h4 {
-    margin: 10px;
+main p {
+    line-height: 1.5;
 }
 form {
-    margin: 20px 50px;
     padding: 40px;
     text-align: center;
 }
@@ -141,31 +141,52 @@ textarea {
     margin: 5px auto;
     padding: 5px;
 }
+#checkbox {
+    width: 25px;
+}
 #submitButton {
     width: 200px;
     display: block;
     margin: 5px auto;
 }
-main table {
-    display: block;
-    border: 2px solid black;
-    border-collapse: collapse;
-    margin: 20px;
-    width: 90%;
-    margin: auto auto 30px auto;
+.phoneNumber,
+.address {
+    padding: 30px;
+    border: 2px solid brown;
+    margin: 10px;
 }
 
-th {
-    border: 2px solid black;
-    padding: 10px;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: bold;
-}
+/* desktop form */
 
-tr,
-td {
-    border: 2px solid black;
-    padding: 10px;
+@media only screen and (min-width: 650px) {
+    form {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    }
+    input {
+        display: inline-block;
+        margin: 5px;
+    }
+    textarea {
+        display: inline-block;
+        margin: 5px;
+    }
+    #submitButton {
+        margin: 5px;
+    }
+    .phoneNumber,
+    .address {
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+    }
+    .phoneNumber {
+        top: 400px;
+    }
+    .address {
+        top: 550px;
+    }
 }
 
 /* testimonials */
@@ -176,7 +197,6 @@ td {
     margin: 25px auto;
     text-align: center;
 }
-
 .testimonialSection div {
     width: 30%;
     height: 150px;
@@ -189,34 +209,32 @@ td {
 .testimonialSection div:hover {
     box-shadow: 2px 2px 5px 5px gray;
 }
-
 .testimonialSection img {
     float: left;
     max-height: 100px;
     max-width: 100px;
 }
-
 .testimonialSection p {
     font-style: italic;
     font-size: 14px;
 }
 
-/* mobile footer */
+/* footer */
 
+footer {
+    padding: 10px;
+}
 .followLinks {
     text-align: center;
 }
-
 .fa-facebook {
     color: #3A7BFF;
     padding: 5px;
 }
-
 .fa-camera {
     color: #FF645F;
     padding: 5px;
 }
-
 .fa-twitter-square {
     color: #59a2ff;
     padding: 5px;
@@ -228,7 +246,6 @@ td {
     font-family: 'Varela Round', sans-serif;
     margin: auto;
 }
-
 .followLinks a {
     text-decoration: none;
     color: black;

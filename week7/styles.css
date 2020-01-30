@@ -36,7 +36,7 @@ header img {
 }
 
 /* desktop navigation */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 750px) {
     .navbar {
         background-color: white;
         position: fixed;
@@ -158,10 +158,11 @@ textarea {
 
 /* desktop form */
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 750px) {
     form {
         display: inline-block;
         position: relative;
+        left: 25px;
         text-align: left;
     }
     input {
@@ -171,6 +172,8 @@ textarea {
     textarea {
         display: inline-block;
         margin: 5px;
+        height: 250px;
+        width: 400px;
     }
     #submitButton {
         margin: 5px;
@@ -179,7 +182,7 @@ textarea {
     .address {
         display: inline-block;
         position: absolute;
-        right: 25px;
+        right: 50px;
     }
     .phoneNumber {
         top: 400px;
@@ -256,7 +259,7 @@ footer {
 
 /* desktop footer */
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 750px) {
     .followLinks li {
         display: inline;
         margin-right: 15px;
